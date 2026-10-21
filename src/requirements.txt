@@ -1,0 +1,28 @@
+# ─────────────────────────────────────────────────────────────
+# requirements.txt — CamVid Semantic Segmentation Project
+# Extracted from: dataset.py, model.py, utils.py,
+#                 train.py, test.py, optimization.py, analysis.py
+# ─────────────────────────────────────────────────────────────
+
+# ── Core Deep Learning ───────────────────────────────────────
+torch>=2.1.0
+torchvision>=0.16.0
+
+# ── Image Augmentation ───────────────────────────────────────
+albumentations>=1.4.0
+opencv-python>=4.8.0
+
+# ── Hyperparameter Optimisation ──────────────────────────────
+optuna>=3.4.0
+
+# ── Numerical Computing ──────────────────────────────────────
+numpy>=1.24.0
+
+# ── Image I/O ────────────────────────────────────────────────
+Pillow>=10.0.0
+
+# ── Visualisation ────────────────────────────────────────────
+matplotlib>=3.7.0
+
+# ── Boundary F1 (scipy.ndimage.binary_dilation in utils.py) ──
+scipy>=1.11.0
